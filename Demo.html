@@ -8,13 +8,57 @@
 </head>
 <body>
     <a-scene>
+
+        <a-camera
+        position="0 4 2.5" 
+        rotation="-45 0 0">
+        </a-camera>
+        
         <a-sky color="#87CEEB">
         </a-sky>
+        <!-- ground & road -->
         <a-cylinder
             position="0 1.5 -3"
             height="0.1"
-            radius="2.5"
+            radius="4"
+            color="grey"
         ></a-cylinder>
+
+         <a-cylinder
+            position="0 1.5 -3"
+            height="0.2"
+            radius="2"
+        ></a-cylinder>
+
+        <a-cylinder
+            position="0 1.5 -3"
+            height="0.01"
+            radius="5"
+        ></a-cylinder>
+
+        <!-- tree -->
+        <a-cylinder
+            position="0 2 -3"
+            height="1"
+            radius="0.09"
+            color="#5c3511">
+        </a-cylinder>
+        <a-cone
+            position="0 2.5 -3"
+            color="#053611"
+            radius-bottom="0.7"
+            height="0.6" 
+        ></a-cone>
+        <a-cone
+            position="0 2.9 -3"
+            color="#053611"
+            radius-bottom="0.5"
+            height="0.6" 
+        ></a-cone>
+
+        <!-- car -->
+        
+
     </a-scene>
     
 </body>

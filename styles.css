@@ -1,8 +1,6 @@
-
 body{
     font-family: system-ui;
     background-color: #33203b;
-    background-image: opacity(0.5);
     color: white;
     display: flex;
     flex-direction: column;
@@ -17,18 +15,23 @@ body::before {
     background-image: url('images/math.jpg');
     background-size: cover;
     background-position: center;
-    background-repeat: no-repeat;
 
-    filter: brightness(0.5) blur(2px);  /* <-- your filter goes here */
+    filter: brightness(0.5) blur(2px);  
     z-index: -1;
+
+    position: fixed;
+    inset: 0;
 }
 
 hr {
     width: 80%;
-    border: 1px solid rgb(244, 201, 60);
-    
+    border: 1px solid rgb(244, 201, 60);  
 }
+
 h2 {
+    color: rgb(255, 209, 58);
+}
+strong {
     color: rgb(255, 209, 58);
 }
 ul {
@@ -37,6 +40,8 @@ ul {
     color: rgb(255, 255, 255);
     background-color: rgba(255, 255, 255, 0.347);
     border-radius: 14px;
+    max-width: 800px;
+    width: 90%;
     border: transparent 2px solid;
     width: auto;
     padding: 25px;

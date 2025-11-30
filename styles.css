@@ -169,7 +169,11 @@ p {
     background: rgba(0, 0, 0, 0.35);
 }
 
-.graphs a{
-    color: white;
-    text-decoration: none;
+a{
+    color: rgb(136, 235, 42);
+    text-decoration: none;;
+}
+
+a:hover {
+    color: rgb(255, 213, 0);
 }

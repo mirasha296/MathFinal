@@ -43,19 +43,7 @@ strong {
     list-style-type: none;
     text-align: center;
     color: rgb(255, 255, 255);
-    background-color: rgba(255, 255, 255, 0.347);
-    border-radius: 14px;
-    max-width: 800px;
-    width: 90%;
-    border: transparent 2px solid;
-    width: auto;
-    padding: 25px;
-    background-image: 
-    radial-gradient(circle at 50% 250%,rgb(255, 255, 255), transparent),
-    linear-gradient(rgba(203, 154, 154, 0.249), rgba(191, 0, 255, 0.675));
-    background-origin: padding-box, border-box;
-    background-clip: padding-box, border-box;
-
+    
 }
 
 
@@ -176,4 +164,22 @@ a{
 
 a:hover {
     color: rgb(255, 213, 0);
+}
+
+.paragraph {
+    width: 900px;
+}
+
+.full-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 20px;
+}
+
+p{
+    width: 90%;
+    max-width: 1200px;
+    margin: 0;;
+
 }
